@@ -1,24 +1,23 @@
 # my-app
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Warning -- The Api will not work without the bearer token
 
-### Lints and fixes files
-```
-npm run lint
-```
+> The second page which includes the todo list will not work without the bearer toke.
+> you can use the Todo functionality by including the bearer token inside BearerToken.js which resided inside the utils folder.
+> when the token will be icluded you will be able to:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Add a task to you Juno dashboard
+- Delete a task
+- Edit a task's title
